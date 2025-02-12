@@ -546,3 +546,7 @@ footer {
   margin-top: 10px;
 }
 }
+
+#shadow-host-companion {
+  height: 0;
+}
