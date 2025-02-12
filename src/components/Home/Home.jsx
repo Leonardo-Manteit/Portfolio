@@ -1,6 +1,6 @@
 import React from 'react';
 import me from '../../assets/images/me.png'
-import resume from '../../assets/Leonardo_Manteit.pdf'
+import resume from '../../assets/Leonardo_Manteit_CV.pdf'
 import downloadSymbol from '../../assets/images/download.png'
 import preview from '../../assets/images/search-file.png'
 // import portfolio from '../../assets/portfolio.pdf'
@@ -17,8 +17,8 @@ const Home = () => {
           <h1>Leonardo Manteit</h1>
           <p>Software Engineer</p>
           <img src={preview} className='buttonImages'/>
-          <button><a target='_blank' href='https://www.canva.com/design/DAGUb3-MIPg/CledkuW39sj-8ZWgAd8W3A/view?utm_content=DAGUb3-MIPg&utm_campaign=designshare&utm_medium=link&utm_source=editor'>Preview my Resume</a></button>
-          <br />
+          {/* <button><a target='_blank' href='https://www.canva.com/design/DAGUb3-MIPg/CledkuW39sj-8ZWgAd8W3A/view?utm_content=DAGUb3-MIPg&utm_campaign=designshare&utm_medium=link&utm_source=editor'>Preview my Resume</a></button> */}
+          {/* <br /> */}
           <img src={downloadSymbol} className='buttonImages'/>&nbsp;
           <a href={resume} download><button style={{backgroundColor: '#ff4141', color:'white'}}> Download Resume</button></a>
         </div>
